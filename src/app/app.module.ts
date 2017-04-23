@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { TabsModule } from 'ngx-bootstrap/tabs';
 
 import { AppComponent } from './app.component';
 
@@ -12,7 +14,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    CarouselModule.forRoot(),
+    TabsModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
