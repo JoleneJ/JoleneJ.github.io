@@ -15,6 +15,7 @@
     "_server:run": "tsc -p ./server && concurrently \"tsc -w -p ./server\" \"nodemon dist/server/\" ",
     "_server:build": "tsc -p ./server",
     "postinstall": "npm run build",
+    "heroku-postbuild": "npm run build",
     "deploy": "git push origin master && git push heroku master"
   },
   "private": true,
