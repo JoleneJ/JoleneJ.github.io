@@ -51,4 +51,4 @@ const lazyRoutes: Routes = [
 export const appRoutingProviders: any[] = [
 ];
 
-export const lazyRouting: ModuleWithProviders = RouterModule.forRoot(lazyRoutes);
+export const lazyRouting: ModuleWithProviders = RouterModule.forRoot(lazyRoutes, {useHash: true});
