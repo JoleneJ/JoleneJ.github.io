@@ -2,3 +2,12 @@
   width: 1000px;
   margin: 0 auto;
 }
+.buttonDiv{
+  background-color: #fff9e5 !important;
+}
+.myContainer{
+  background-color: #feefef;
+}
+.jumbotron{
+  background-color:#fff9e5 !important;
+}
