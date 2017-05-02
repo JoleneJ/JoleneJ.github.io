@@ -13,7 +13,8 @@ import { serverPort } from "../config";
  */
 const port = normalizePort(process.env.PORT || serverPort);
 app.set("port", port);
-
+console.log("set port: ",port);
+console.log("env port: ", process.env.PORT);
 /**
  * Create HTTP server.
  */
