@@ -22,11 +22,11 @@ export class RSVPComponent implements OnInit {
             firstName: ['', [<any>Validators.required, <any>Validators.minLength(5)]],
             lastName: ['', [<any>Validators.required, <any>Validators.minLength(5)]],
             phone: ['', [<any>Validators.required, <any>Validators.minLength(5)]],
-            email: ['', [<any>Validators.required, <any>Validators.minLength(5)]],
-            address: this._fb.group({
-                street: ['', <any>Validators.required],
-                postcode: ['']
-            })
+            email: ['', [<any>Validators.required, <any>Validators.minLength(5)]]
+            // address: this._fb.group({
+            //     street: ['', <any>Validators.required],
+            //     postcode: ['']
+            //})
         });
     }
 
