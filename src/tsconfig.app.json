@@ -13,16 +13,5 @@
   ],
   "include": [
         "app/**/*.ts"
-  ],
-  "files": [
-          "app/main.ts",
-          "app/app.module.ts",
-          "app/app.component.ts",
-          "events/event.component.ts",
-          "hotel/hotel.component.ts",
-          "reception/reception.component.ts",
-          "registry/registry.component.ts",
-          "rsvp/rsvp.component.ts",
-          "social/social.component.ts"
-  ],
+  ]
 }
