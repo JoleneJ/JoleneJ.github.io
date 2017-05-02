@@ -4,7 +4,6 @@ import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms'
 import { Guest } from './guest.interface';
 
 @Component({
-    moduleId: module.id,
     selector: 'rsvp',
     templateUrl: 'rsvp.component.html',
 })
